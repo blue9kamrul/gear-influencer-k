@@ -40,13 +40,12 @@ section{
     padding-right: 20px;
     padding-bottom: 5px;
     text-decoration: none; 
-    animation: sliding 3s ease-in 1s infinite;
+    animation: sliding 5s ease-out 1s infinite;
     animation-play-state: running;
 }
 .fa-long-arrow-alt-right{
     color: white;
-}
-
+}     
 
 /*--------------
  mid-section 
@@ -65,6 +64,10 @@ section{
     margin: 15px 15px 15px 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+}
+.product:hover img{
+    transform: scale(1.2);
+    transition: transform 1s ease-in;
 }
 .fa-star{
     color: goldenrod;
