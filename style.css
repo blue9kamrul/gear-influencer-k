@@ -68,7 +68,7 @@ section{
 }
 #seemore-button{
     justify-content: right;
-    margin-left: 80%;
+    margin-left: 85%;
     text-decoration: none;
     color: #E02C6D;
     font-weight: 800;
@@ -84,7 +84,7 @@ section{
     color: #0A0826;
 }
 .last-section{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 45px;
 }
 /*-----------
@@ -96,6 +96,7 @@ section{
     background-color: #0A0826;
     padding-top: 35px;
     padding-bottom: 15PX;
+    margin: 0 0 0 0;
 }
 .footericon{
     text-decoration: none;
@@ -109,10 +110,11 @@ section{
          grid-template-columns: repeat(1, 1fr);
      }
      #seemore-button{
-         justify-content: left;
+       margin-left: 60%;
      }
      section{
          display: block;
+         margin-right: 25px;
      }
      .content-heading{
          font-size: 2em;
@@ -149,7 +151,4 @@ section{
      }
      
  }
- /* computer device */
- @media only screen and (min-width: 869px) and (max-width: 1400px){
-
- } 
+ 
