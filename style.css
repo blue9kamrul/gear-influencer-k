@@ -39,7 +39,9 @@ section{
     padding-bottom: 5px;
     text-decoration: none; 
 }
-
+.fa-long-arrow-alt-right{
+    color: white;
+}
 
 /*--------------
  mid-section 
@@ -63,8 +65,11 @@ section{
     justify-content: right;
     margin-left: 80%;
     text-decoration: none;
-    color: hotpink;
+    color: #E02C6D;
     font-weight: 800;
+}
+.fa-arrow-right{
+    color: #E02C6D;
 }
 /*----------------
  bonus-extra-section 
