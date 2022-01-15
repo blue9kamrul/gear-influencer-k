@@ -127,12 +127,12 @@ section{
          display: block;
      }
      .half-width img{
-         width: 250px;
-         height: 60px;
+         width: 350px;
+         height: 350px;
      }
      .last-section img{
-         width: 340px;
-         height: 350px;
+         width: 280px;
+         height: 170px;
      }
      
  }
@@ -140,3 +140,12 @@ section{
  /*---------------------
   responsive for tablet
  ------------------ */
+ @media only screen and (min-width: 577px) and (max-width: 868px) {
+     .midbox{
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .half-width img{
+         margin-top: 200px;
+     }
+     
+ }
