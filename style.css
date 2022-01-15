@@ -3,7 +3,6 @@
  ---------------*/
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(219, 214, 214, 0.671);
 }
 .background{
     margin-left: 5%;
@@ -13,17 +12,17 @@ body{
 /*-------------
  top-section-style 
 -------------- */
-header{
+section{
     display: flex;
-}
-.top-section{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .top-heading{
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .content-heading{
     font-weight: 900;
+    font-size: 3em;
 }
 .half-width{
     width: 50%;
@@ -33,17 +32,15 @@ header{
 .button-style{
     border-radius: 20px;
     color: white;
-    background-color: salmon;
+    background-color: #E02C6D ;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
     text-decoration: none; 
 }
-.fa-arrow-right{
-    color: white;
-    color: fill ;
-}
+
+
 /*--------------
  mid-section 
 ---------------- */
@@ -57,7 +54,10 @@ header{
     margin-left: 25px;
 }
 .product{
-    margin: 10px 10px 10px 10px;
-    box-shadow: 5px 5px 5px 5px linen;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
