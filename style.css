@@ -34,16 +34,19 @@ section{
 .button-style{
     border-radius: 20px;
     color: white;
-    background-color: #E02C6D ;
+    background-color:  #E02C6D;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
     text-decoration: none; 
+    animation: sliding 3s ease-in 1s infinite;
+    animation-play-state: running;
 }
 .fa-long-arrow-alt-right{
     color: white;
 }
+
 
 /*--------------
  mid-section 
