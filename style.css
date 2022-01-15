@@ -101,3 +101,42 @@ section{
     text-decoration: none;
     color: white;
 }
+/*---------------
+ responsive for mobile
+ -------------- */
+ @media only screen and (max-width:576px){
+     .midbox{
+         grid-template-columns: repeat(1, 1fr);
+     }
+     #seemore-button{
+         justify-content: left;
+     }
+     section{
+         display: block;
+     }
+     .content-heading{
+         font-size: 2em;
+     }
+     .button-style{
+         margin-bottom: 60px;
+     }
+     .half-width{
+         margin-top: 60px;
+     }
+     .last-section{
+         display: block;
+     }
+     .half-width img{
+         width: 250px;
+         height: 60px;
+     }
+     .last-section img{
+         width: 340px;
+         height: 350px;
+     }
+     
+ }
+
+ /*---------------------
+  responsive for tablet
+ ------------------ */
