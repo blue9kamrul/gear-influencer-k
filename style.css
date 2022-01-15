@@ -29,6 +29,8 @@ section{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
 .button-style{
     border-radius: 20px;
     color: white;
@@ -61,6 +63,9 @@ section{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
+.fa-star{
+    color: goldenrod;
+}
 #seemore-button{
     justify-content: right;
     margin-left: 80%;
@@ -76,15 +81,23 @@ section{
 ---------------- */
 #bottom-header{
     font-size: 2em;
+    color: #0A0826;
 }
 .last-section{
     margin-left: 50px;
     margin-top: 45px;
 }
+/*-----------
+ footer section 
+--------------*/
 .footer-style{
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #0A0826;
     padding-top: 35px;
     padding-bottom: 15PX;
+}
+.footericon{
+    text-decoration: none;
+    color: white;
 }
