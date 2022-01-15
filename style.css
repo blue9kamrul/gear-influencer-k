@@ -14,7 +14,7 @@ body{
 -------------- */
 section{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .top-heading{
     margin-top: 50px;
@@ -60,4 +60,24 @@ section{
     margin-bottom: 25px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+}
+#seemore-button{
+    justify-content: end;
+    margin-left: 80%;
+}
+/*----------------
+ bonus-extra-section 
+---------------- */
+#bottom-header{
+    font-size: 2em;
+}
+.last-section{
+    margin-left: 50px;
+}
+.footer-style{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 35px;
+    padding-bottom: 15PX;
 }
